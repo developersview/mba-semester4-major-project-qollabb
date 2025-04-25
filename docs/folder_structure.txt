@@ -1,0 +1,33 @@
+InsightNation/
+│
+├── data/
+│   ├── raw/
+│   │   └── citizen_feedback.csv
+│   ├── processed/
+│   │   └── cleaned_citizen_feedback.csv
+│   └── exports/
+│       └── predictions.csv
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_nlp_modeling.ipynb
+│   └── 03_sentiment_classifier.ipynb
+│
+├── src/
+│   ├── data_cleaning.py
+│   ├── eda_visuals.py
+│   ├── nlp_pipeline.py
+│   ├── model_trainer.py
+│   └── utils.py
+│
+├── dashboard/
+│   └── app.py
+│
+├── reports/
+│   ├── phase1_scope.pdf
+│   ├── phase2_architecture.drawio
+│   └── phase4_eda_summary.pdf
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
