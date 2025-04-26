@@ -1,7 +1,12 @@
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
-input_filepath = "D:/AMITY/Semester_4/5. Major Project/mba-semester4-major-project-qollabb/ProjectApp/data/raw/citizen_feedback.csv"
-output_filepath = "D:/AMITY/Semester_4/5. Major Project/mba-semester4-major-project-qollabb/ProjectApp/data/preprocessed/cleaned_citizen_feedback.csv"
+load_dotenv()
+
+input_filepath = os.getenv("raw_csv_path")
+output_filepath = os.getenv("cleaned_csv_path")
+
 # Step 1: Load the dataset
 df = pd.read_csv(input_filepath)
 

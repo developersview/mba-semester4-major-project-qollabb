@@ -7,3 +7,7 @@ wordcloud
 scikit-learn
 spacy
 python-dotenv
+streamlit
+google-generativeai
+streamlit
+plotly
