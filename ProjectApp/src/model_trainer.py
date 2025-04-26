@@ -9,13 +9,15 @@ from sklearn.metrics import classification_report
 import joblib
 from scipy.sparse import csr_matrix
 from scipy.sparse import hstack
+from dotenv import load_dotenv
+import os
 
-
+load_dotenv()
 # Load the data
-df = pd.read_csv("D:/AMITY/Semester_4/5. Major Project/mba-semester4-major-project-qollabb/ProjectApp/data/processed/cleaned_feedback_with_text.csv")
+df = pd.read_csv(os.getenv("cleaned_csv_with_text_path"))
 
 # Generate sentiment label heuristically (positive if satisfaction is high)
-df['label'] = df['local_service_satisfaction'].apply(lambda x: 1 if x in ['Very Satisfied', 'Neutral', 'satisfied', 'good', 'very good'] else 0)
+df['label'] = df['local_service_satisfaction'].apply(lambda x: 1 if x in ['Very Satisfied', 'Satisfied', 'Good', 'Very Good', 'Excellent', 'Fair'] else 0)
 
 # Features and target
 X = df['clean_text']

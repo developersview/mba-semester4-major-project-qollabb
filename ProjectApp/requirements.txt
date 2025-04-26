@@ -6,3 +6,4 @@ seaborn
 wordcloud
 scikit-learn
 spacy
+python-dotenv

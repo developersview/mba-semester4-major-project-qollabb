@@ -1,5 +1,6 @@
 # src/nlp_pipeline.py
 
+
 import spacy
 import string
 from sklearn.base import BaseEstimator, TransformerMixin
@@ -28,16 +29,32 @@ class SpacyPreprocessor(BaseEstimator, TransformerMixin):
 
 # Utility function to run pipeline
 if __name__ == '__main__':
-    import pandas as pd
 
-    path = "D:/AMITY/Semester_4/5. Major Project/mba-semester4-major-project-qollabb/ProjectApp/data/preprocessed/cleaned_citizen_feedback.csv"
+    import pandas as pd
+    import os
+    from dotenv import load_dotenv
+
+    load_dotenv()
+    path = os.getenv("cleaned_csv_path")
+    #print(path)
+
     df = pd.read_csv(path)
 
     # Combine all feedback columns into one
-    df['full_feedback'] = df[['transport_suggestions', 'park_suggestions', 'library_suggestions', 'local_service_suggestions', 'local_service_satisfaction']].fillna('').agg(' '.join, axis=1)
+    df['full_feedback'] = df[[
+        'transport_suggestions', 
+        'park_suggestions', 
+        'library_suggestions', 
+        'local_service_suggestions', 
+        'local_service_satisfaction',
+        'toilet_cleanliness',
+        'toilet_safety',
+        'service_use',
+        'transport_satisfaction'
+    ]].fillna('').agg(' '.join, axis=1)
 
     processor = SpacyPreprocessor()
     df['clean_text'] = processor.transform(df['full_feedback'])
 
-    df.to_csv("D:/AMITY/Semester_4/5. Major Project/mba-semester4-major-project-qollabb/ProjectApp/data/processed/cleaned_feedback_with_text.csv", index=False)
+    df.to_csv(os.getenv("cleaned_csv_with_text_path"), index=False)
     print("Cleaned feedback with NLP text saved to processed directory.")
