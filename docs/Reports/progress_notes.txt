@@ -1,0 +1,15 @@
+Week 1 Progress:
+ - Defined 12-week project timeline.
+ - Outlined key project milestones.
+ - Planned system design phase.
+ - Scheduled data integration activities.
+ - Initiated model building planning.
+ - Defined project deliverables and dependencies.
+ 
+
+Technology Stack:
+
+ - Excel Power Query
+ - Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Spacy)
+ - Streamlit for dashboard development
+ - Google Gemini API for AI-powered insights

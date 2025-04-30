@@ -1,8 +1,17 @@
 Project URL : https://qollabb.com/project/ai---governance-data-analytics/372
 
------------------------------------------------------------------------------------------
+=============================================================================================================================
 Main Project Title: CivicPulse – Data Analytics Platform for Citizen Feedback and Smarter Public Service Delivery
-
+-----------------------------------------------------------------------------------------------------------------------------
 Proposed Title:
 1. InsightNation – Data Analytics Platform for Public Opinion and Smarter Public Service Enhancement
 2. CivicIntel – Data Analytics Platform for Citizen Feedback Analysis and Public Service Enhancement
+3. InsightNation – Government Data Analytics Platform for Public Opinion and Smarter Service Enhancement
+4. InsightNation – Government Data Analytics Platform for Citizen Opinion and Public Service Enhancement
+-----------------------------------------------------------------------------------------------------------------------------
+Finalized Title: InsightNation – Government Data Analytics Platform for Citizen Opinion and Public Service Enhancement
+=============================================================================================================================
+
+Imp Links for Reference:
+1. https://www.salesforce.com/in/government/data-analytics/guide/
+2. 
