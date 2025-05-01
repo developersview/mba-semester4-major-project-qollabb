@@ -6,10 +6,19 @@ Week 1 Progress:
  - Initiated model building planning.
  - Defined project deliverables and dependencies.
  
-
 Technology Stack:
 
  - Excel Power Query
  - Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Spacy)
  - Streamlit for dashboard development
  - Google Gemini API for AI-powered insights
+=============================================================================
+Week 2 Progress:
+
+- Reviewed and refined project objectives and scope for clarity and alignment.
+- Finalized core system requirements and key platform functionalities.
+- Selected cleaned citizen feedback dataset for development and testing.
+- Confirmed tech stack including Python, Streamlit, and Gemini API.
+- Designed full system architecture and data flow diagram.
+- Created initial wireframes for dashboard interface and visual elements.
+- Collected feedback on designs for future iterations and improvements.
