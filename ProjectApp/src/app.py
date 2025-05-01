@@ -234,7 +234,7 @@ def sentiment_swot():
     st.subheader("SWOT Analysis from Feedback")
     sample_feedback = " ".join(df["local_service_suggestions"].dropna().astype(str).sample(10))
 
-    prompt = f"Based on the following citizen feedback, generate a SWOT analysis:\n\n{sample_feedback}"
+    prompt = f"Based on the following citizen feedback, generate a SWOT analysis and Also Gerate a 2x2 table of SWOT:\n\n{sample_feedback}"
     response = model.generate_content(prompt)
 
     st.success(response.text)
