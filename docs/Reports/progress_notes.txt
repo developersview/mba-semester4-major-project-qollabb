@@ -22,3 +22,15 @@ Week 2 Progress:
 - Designed full system architecture and data flow diagram.
 - Created initial wireframes for dashboard interface and visual elements.
 - Collected feedback on designs for future iterations and improvements.
+
+=============================================================================
+Week 3 Progress:
+
+- Defined the modular system architecture for data ingestion, processing, analytics, and visualization.
+- Mapped the end-to-end data flow from CSV upload to final insights generation.
+- Designed initial wireframes for the dashboard layout using Figma.
+- Created mockups showcasing visual elements like charts, filters, and AI summaries.
+- Incorporated Google Gemini API insights section into the dashboard design.
+- Ensured accessibility and user-friendly navigation in interface planning.
+- Held collaboration meetings and integrated stakeholder feedback into designs.
+- Compiled detailed documentation of architecture, flow diagrams, and UI components.
