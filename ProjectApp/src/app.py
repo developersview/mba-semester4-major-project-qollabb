@@ -56,22 +56,23 @@ def citizen_feedback_insights():
         st.warning("Please upload a dataset first.")
         return
 
-    st.subheader("Key Feedback Statistics")
-    
-    # avg_scores = {
-    #     "Toilet Cleanliness": df["toilet_cleanliness"].mean(),
-    #     "Transport Satisfaction": df["transport_satisfaction"].mean(),
-    #     "Library Satisfaction": df["library_satisfaction"].mean(),
-    #     "Local Service Satisfaction": df["local_service_satisfaction"].mean()
-    # }
-    # st.write(avg_scores)
+    if st.button("Generate Feedback Insights"):
+        st.subheader("Key Feedback Statistics")
+        
+        # avg_scores = {
+        #     "Toilet Cleanliness": df["toilet_cleanliness"].mean(),
+        #     "Transport Satisfaction": df["transport_satisfaction"].mean(),
+        #     "Library Satisfaction": df["library_satisfaction"].mean(),
+        #     "Local Service Satisfaction": df["local_service_satisfaction"].mean()
+        # }
+        # st.write(avg_scores)
 
-    st.subheader("AI-Generated Insight Summary")
-    sample_text = " ".join(df["local_service_suggestions"].dropna().astype(str).sample(10))
-    if sample_text:
-        prompt = f"Summarize key citizen feedback themes from the following text: {sample_text}"
-        response = model.generate_content(prompt)
-        st.success(response.text)
+        st.subheader("AI-Generated Insight Summary")
+        sample_text = " ".join(df["local_service_suggestions"].dropna().astype(str).sample(10))
+        if sample_text:
+            prompt = f"Summarize key citizen feedback themes from the following text: {sample_text}. Also, provide a sentiment score (positive, negative, neutral) for each theme."
+            response = model.generate_content(prompt)
+            st.success(response.text)
 
 # # ----------------------------
 # # Citizen Interaction Chatbot
@@ -232,12 +233,13 @@ def sentiment_swot():
         return
 
     st.subheader("SWOT Analysis from Feedback")
-    sample_feedback = " ".join(df["local_service_suggestions"].dropna().astype(str).sample(10))
+    if st.button("Generate SWOT Analysis"):
+        sample_feedback = " ".join(df["local_service_suggestions"].dropna().astype(str).sample(10))
 
-    prompt = f"Based on the following citizen feedback, generate a SWOT analysis and Also Gerate a 2x2 table of SWOT:\n\n{sample_feedback}"
-    response = model.generate_content(prompt)
+        prompt = f"Based on the following citizen feedback, generate a SWOT analysis and Also Gerate a 2x2 table of SWOT:\n\n{sample_feedback}"
+        response = model.generate_content(prompt)
 
-    st.success(response.text)
+        st.success(response.text)
 
 # ----------------------------
 # Sidebar Navigation
