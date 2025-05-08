@@ -223,6 +223,7 @@ def visual_dashboard():
     ax.axis("off")
     st.pyplot(fig)
 
+    
 # ----------------------------
 # Sentiment SWOT Analysis
 # ----------------------------
