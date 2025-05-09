@@ -37,3 +37,11 @@ Week 3 Progress:
 
 ==============================================================================
 Week 4 Progress:
+
+- Designed a modular system architecture using Streamlit, Python, Pandas, and Gemini API for scalability and AI integration.
+- Mapped the complete data flow from file upload to AI-powered insight generation and dashboard visualization.
+- Created wireframes focusing on intuitive layout, filter placement, and user interaction for the dashboard interface.
+- Developed high-fidelity mockups with sample charts, word clouds, and sentiment KPIs to simulate real user experience.
+- Collected feedback from stakeholders and refined the interface for better clarity and usability.
+- Documented all architectural decisions, data flow diagrams, and design mockups for future development reference.
+- Established a strong design foundation to guide implementation in upcoming development phases.
