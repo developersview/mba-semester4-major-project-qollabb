@@ -116,7 +116,7 @@ def citizen_feedback_insights():
 # AI Policy Advisor
 # ----------------------------
 def ai_policy_advisor():
-    st.subheader("AI Policy Strategy Generator")
+    st.subheader("AI Policy Advisor for Public Services")
     scenario = st.text_area("Describe a public service scenario:")
 
     if st.button("Generate Strategies"):
