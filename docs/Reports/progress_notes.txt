@@ -45,3 +45,14 @@ Week 4 Progress:
 - Collected feedback from stakeholders and refined the interface for better clarity and usability.
 - Documented all architectural decisions, data flow diagrams, and design mockups for future development reference.
 - Established a strong design foundation to guide implementation in upcoming development phases.
+
+==============================================================================
+Week 5 Progress:
+
+- Identified and secured access to key data sources including surveys, Twitter, and government portals.
+- Developed automated Python pipelines to collect, clean, and organize citizen feedback data.
+- Performed data cleaning to address missing values, duplicates, and inconsistent formats.
+- Integrated datasets into a unified master file with a consistent schema for all feedback types.
+- Validated data accuracy through sampling, cross-referencing, and service-level coverage checks.
+- Documented all processes, data schemas, and source details for future reference.
+- Collaborated with team members to ensure alignment and refinement of the integrated dataset.
