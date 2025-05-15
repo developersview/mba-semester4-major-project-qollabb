@@ -67,3 +67,25 @@ Week 6 Progress:
 - Automated data collection and processing using scheduled scripts and cron jobs.
 - Optimized data workflows to improve efficiency and reduce overall processing time.
 - Documented all data sources, pipeline configurations, and quality assurance processes.
+
+================================================================================
+Week 7 Progress:
+
+- Reviewed and finalized the cleaned citizen feedback dataset for analytics readiness.
+- Applied sentiment analysis, classification, and clustering models to extract key insights.
+- Trained and validated ML models using techniques like Logistic Regression, SVM, and K-means.
+- Tuned models using cross-validation and hyperparameter optimization for better accuracy.
+- Documented insights such as common complaints, age-group satisfaction trends, and usage patterns.
+- Collaborated with team members to review model outputs and address challenges like data imbalance.
+- Compiled key analytics results for integration into the dashboard in the next project phase.
+
+=================================================================================
+Week 8 Progress:
+
+- Finalized dashboard requirements, focusing on key insights, user roles, and visualization types.
+- Set up the development environment using Streamlit with essential Python libraries for visualization.
+- Designed the dashboard layout with sections for overview metrics, service-specific insights, and demographic filters.
+- Implemented dynamic visualizations using Plotly, Seaborn, and Altair, including bar charts, pie charts, and heatmaps.
+- Ensured interactivity with filters for city, age group, and gender, enabling user-customized views.
+- Collected internal feedback and improved UX with tooltips, color adjustments, and cleaner layouts.
+- Documented all visualization logic and prepared materials for the final report and demo review.
