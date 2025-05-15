@@ -24,7 +24,7 @@ model = genai.GenerativeModel("gemini-2.0-flash-001")
 # App Config
 # ----------------------------
 st.set_page_config(page_title="InsightNation Dashboard", layout="wide")
-st.title("InsightNation - Government Data Analytics Platform ")
+st.title("InsightNation - Government Data Analytics Platform")
 
 
 
@@ -278,7 +278,7 @@ menu = st.sidebar.selectbox(
         "📈 Citizen Feedback Insights",
         "📊 Visual Analytics Dashboard",
         "🧩 Sentiment SWOT Analysis",
-        "⚙️ AI Policy Advisor",
+        "🤖 AI Policy Advisor",
     ]
 )
 
@@ -286,11 +286,11 @@ if menu == "📂 Upload New Dataset":
     upload_dataset()
 elif menu == "📈 Citizen Feedback Insights":
     citizen_feedback_insights()
-elif menu == "⚙️ AI Policy Advisor":
+elif menu == "🤖 AI Policy Advisor":
     ai_policy_advisor()
 elif menu == "📊 Visual Analytics Dashboard":
     visual_dashboard()
 elif menu == "🧩 Sentiment SWOT Analysis":
     sentiment_swot()
 
-st.sidebar.info("Created by Pranoy Chakraborty")
+st.sidebar.info("©️ 2025  |   Pranoy Chakraborty")

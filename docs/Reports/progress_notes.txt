@@ -56,3 +56,14 @@ Week 5 Progress:
 - Validated data accuracy through sampling, cross-referencing, and service-level coverage checks.
 - Documented all processes, data schemas, and source details for future reference.
 - Collaborated with team members to ensure alignment and refinement of the integrated dataset.
+
+===============================================================================
+Week 6 Progress:
+
+- Finalized key data sources including surveys, government portals, Twitter, and Reddit.
+- Developed ETL pipelines using Python to systematically collect and organize incoming data.
+- Implemented data quality checks to handle missing values, outliers, and duplicate entries.
+- Integrated multiple datasets into a single, unified master file with standardized fields.
+- Automated data collection and processing using scheduled scripts and cron jobs.
+- Optimized data workflows to improve efficiency and reduce overall processing time.
+- Documented all data sources, pipeline configurations, and quality assurance processes.
