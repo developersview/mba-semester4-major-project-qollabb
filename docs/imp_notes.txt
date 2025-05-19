@@ -15,3 +15,16 @@ Finalized Title: InsightNation – Government Data Analytics Platform for Citize
 Imp Links for Reference:
 1. https://www.salesforce.com/in/government/data-analytics/guide/
 2. 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Thank you for your valuable review and feedback. I have revised the report in accordance with your recommendations and have now completed the full report. However, I would like to clarify a few points where strict adherence to the guidelines has resulted in certain outcomes that may differ from expectations. These are explained below:
+
+The report follows the specified formatting guidelines: Times New Roman font, size 12, double line spacing (2.0), and 1-inch (2.5 cm) margins on all sides.
+I have removed your designation from the title page, as advised.
+The pagination has been adjusted so that Page 1 begins from "Chapter 1 – Introduction."
+All chapters and subchapters start on a new page to ensure clarity and structure.
+The total word count of the report is approximately 27,000 words, which is well within the prescribed range of 15,000 to 30,000 words.
+While the report exceeds 100 pages, it is due to the mandated double-spacing format (gap between 2 lines is 2.0). The guidelines do not specify a maximum page limit, only a word count range and a maximum file size.
+The final PDF file size is 1.8 MB, which complies with the requirement of staying under 2 MB.
+I have included 24 images and figures, and a corresponding list of figures has also been provided for reference.
+I am also preparing a live dashboard, which will be demonstrated during the viva presentation.
