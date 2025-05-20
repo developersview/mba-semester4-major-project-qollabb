@@ -293,4 +293,4 @@ elif menu == "📊 Visual Analytics Dashboard":
 elif menu == "🧩 Sentiment SWOT Analysis":
     sentiment_swot()
 
-st.sidebar.info("©️ 2025  |   Pranoy Chakraborty")
+st.sidebar.info("©️ 2025 InsightNation. All rights reserved.")
