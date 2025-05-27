@@ -89,3 +89,67 @@ Week 8 Progress:
 - Ensured interactivity with filters for city, age group, and gender, enabling user-customized views.
 - Collected internal feedback and improved UX with tooltips, color adjustments, and cleaner layouts.
 - Documented all visualization logic and prepared materials for the final report and demo review.
+
+=================================================================================
+Week 9 Progress:
+
+- Reviewed insights from analytics models to select key metrics for visualization (e.g., sentiment trends, service satisfaction).
+- Developed the dashboard using Streamlit, integrating Plotly, Altair, and Matplotlib for dynamic visualizations.
+- Created interactive features such as filters, tooltips, dropdowns, and search boxes to enhance user experience.
+- Prioritized user-friendliness and accessibility for non-technical stakeholders like government officers.
+- Conducted comprehensive testing for bugs, data accuracy, loading speed, and layout responsiveness.
+- Documented the dashboard development process, including design logic, visuals, and usage instructions.
+- Prepared a summarizing key findings and offering a live demo of the dashboard interface.
+
+==================================================================================
+Week 10 Progress:
+
+- Reviewed dashboard requirements to ensure alignment with user expectations and previously defined design objectives (from Design Phase).
+- Continued development using Streamlit, finalizing layout, charts, and visualizations with tools like Plotly, Altair, and Matplotlib for responsiveness and clarity.
+- Enhanced interactivity by integrating filters, dropdowns, and drill-down options, enabling users (e.g., public sector officials) to explore insights dynamically.
+- Conducted comprehensive testing for performance, responsiveness, and data accuracy; bugs and layout inconsistencies were identified and resolved.
+- Collected feedback from stakeholders, leading to improvements in UI design, tooltip clarity, and visual hierarchy for better user experience.
+- Documented the entire dashboard development process, including design decisions, code structure, usage guidelines, and troubleshooting notes.
+- Finalized and locked the dashboard for presentation and deployment, marking the completion of the analytics interface for the InsightNation platform.
+
+==================================================================================
+Week 11 Progress:
+
+- Comprehensive Platform Testing: Conducted end-to-end testing of all components including data ingestion, NLP models, and dashboard interactivity to ensure system stability and reliability across various use cases.
+- Performance Optimization: Identified and resolved performance bottlenecks related to dashboard load times and model execution by refactoring key scripts and enabling caching.
+- User Feedback Collection: Collected detailed feedback from test users and stakeholders on usability, layout, and clarity of insights; feedback was analyzed and categorized for implementation.
+- Refinements Based on Feedback: Enhanced UI elements, improved color schemes for accessibility, reordered key visualizations, and simplified GPT-generated recommendations for better user understanding.
+- Final Report Compilation: Drafted and organized the final project report with detailed documentation of all phases, tools used, challenges faced, and decisions made throughout the development lifecycle.
+- Presentation Deck Creation: Developed a concise and engaging presentation to communicate key project outcomes, demo the platform, and highlight its potential for public sector decision-making.
+- Cross-Team Collaboration: Worked closely with team members to align testing efforts, resolve last-minute bugs, and finalize documentation in preparation for the project’s final submission phase.
+
+==================================================================================
+Week 12 Progress:
+
+Final Testing Conducted:
+- Performed end-to-end testing of all modules including EDA, sentiment analysis, and the Streamlit dashboard.
+- Identified and fixed minor UI bugs and functional issues from user feedback sessions.
+
+User Feedback Integrated:
+- Gathered feedback from peers, mentors, and testers regarding usability, speed, and clarity of insights.
+- Prioritized critical improvements and implemented refinements in layout and interactivity.
+
+System Optimization Finalized:
+- Improved dashboard responsiveness and performance (e.g., load time and filter speed).
+- Applied caching and data compression to reduce processing latency during runtime.
+
+Final Report Compiled:
+- Completed and structured the final project report covering all major sections—Introduction to Conclusion.
+- Documented methodology, models, design decisions, lessons learned, and future scope.
+
+Presentation Developed:
+- Created a professional slide deck summarizing project goals, technical stack, outcomes, and impact.
+- Rehearsed presentation and incorporated feedback to improve clarity and flow.
+
+Project Alignment Verified:
+- Matched final deliverables against original objectives to confirm project goals were met.
+- Ensured InsightNation platform supports real-time citizen feedback analysis and public service recommendations.
+
+Submission Ready:
+- All files (report, codebase, data, documentation, presentation) organized and packaged for final submission.
+- Prepared for final evaluation and oral presentation of the project.
